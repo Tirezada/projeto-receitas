@@ -1,0 +1,172 @@
+html, body{
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.top-bar{
+
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+.cake{
+
+    height: 400px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.cake img{
+
+    width: 100%;
+    
+}
+
+.title{
+
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Lato', sans-serif;
+    color: #ff6b28;
+
+}
+
+.ingredientes, .preparo, .instruction{
+
+    margin-right: 30%;
+    margin-left: 30%;
+
+
+}
+
+.ingredientes h2{
+
+    color: #ff6b28;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+    
+
+}
+
+.ingredientes ul li{
+
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 20px
+
+}
+
+.botao input{
+
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #ff6b28;
+    border-style: none;
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.ingredientes:hover{
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.39) ;
+    cursor: url("./images/cursor_ingredientes.png"), pointer;
+
+}
+
+.botao input:hover{
+
+    background-color: gray;
+
+}
+
+.preparo h2{
+
+    color: #ff6b28;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+.preparo ol li{
+
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 15px;
+    margin-left: 20px
+}
+
+.preparo:hover{
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.39) ;
+    cursor: url("./images/cursor_preparo.png"), pointer;
+
+}
+
+.preparo ol{
+
+    padding: 20px;
+
+
+}
+
+.instruction h2{
+
+    color: #ff6b28;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+.instruction p{
+
+
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+
+}
+
+.instruction:hover{
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.39) ;
+    cursor: url("./images/cursor_intrucoes.png"), pointer;
+
+}
+
+.footer{
+
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 5px;
+    color: antiquewhite;
+    padding: 30px;
+
+
+}
+
+.footer a{
+
+    color: antiquewhite;
+    text-decoration: none;
+
+}
